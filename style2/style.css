@@ -1,0 +1,37 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#top-10 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-color: #2A7CC7;
+  color: white;
+}
+#top-10 .section-image {
+  width: 37.5%;
+  height: 170.5px;
+}
+#top-10 .section-star {
+  margin-top: 20px;
+}
+#top-10 .section-title-txt {
+  font-size: medium;
+  font-weight: 900;
+}
+#top-10 .section-txt {
+  font-weight: 900;
+}
+#top-10 .section-txt2 {
+  font-size: medium;
+}
+#top-10 .section-txt3 {
+  font-size: medium;
+}/*# sourceMappingURL=style.css.map */

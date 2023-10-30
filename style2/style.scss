@@ -1,0 +1,63 @@
+@import "./mixins";
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+
+#top-10{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #2A7CC7;
+    color: white;
+
+    .section{
+
+        &-image{
+            width: 37.5%;
+            height: 170.5px;
+          
+
+
+        }
+
+        &-star{
+
+            margin-top: 20px;
+        }
+
+        &-title{
+
+            &-txt{
+                font-size: medium;
+                font-weight: 900;               
+            }
+
+        }
+
+        &-txt{
+            font-weight: 900;
+
+
+
+            &2{
+                font-size: medium;
+
+
+            }
+            &3{
+                font-size: medium;
+
+
+            }
+
+        
+        }
+    }
+}
